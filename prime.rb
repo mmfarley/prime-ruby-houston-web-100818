@@ -8,7 +8,7 @@ def prime?(n)
     false
   else
     i = 5
-    while i <= n
+    while i*i <= n
     
   end
   
