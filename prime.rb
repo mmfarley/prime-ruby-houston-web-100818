@@ -1,7 +1,8 @@
 # Add  code here!
 def prime?(n)
   if n <= 1
-    true
+    false
     elsif n <= 3
-    f
+    true
+    
 end
