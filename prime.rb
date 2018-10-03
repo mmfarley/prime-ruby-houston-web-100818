@@ -11,6 +11,8 @@ def prime?(n)
     while i*i <= n
     if n % i == 0 || n % (i + 2) == 0
       false
+    end
+    i += 6
   end
   
 end
