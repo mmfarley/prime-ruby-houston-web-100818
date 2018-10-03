@@ -4,5 +4,5 @@ def prime?(n)
     false
     elsif n <= 3
     true
-    
+    elsif n % 2 == 0 || n % 
 end
