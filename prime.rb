@@ -9,7 +9,7 @@ def prime?(n)
   else
     i = 5
     while i*i <= n
-    
+    if n % i == 0 || n % (i + 2)
   end
   
 end
