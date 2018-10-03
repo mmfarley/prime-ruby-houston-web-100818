@@ -10,7 +10,7 @@ def prime?(n)
     i = 5
     while i*i <= n
     if n % i == 0 || n % (i + 2) == 0
-      
+      false
   end
   
 end
