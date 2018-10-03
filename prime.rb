@@ -10,10 +10,11 @@ def prime?(n)
   else
     i = 5
     while i*i <= n
-    if n % i == 0 || n % (i + 2) == 0
-      prime = false
+      if n % i == 0 || n % (i + 2) == 0
+        prime = false
+      end
+      i += 6
     end
-    i += 6
   end
  prime 
 end
